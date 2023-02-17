@@ -1,0 +1,111 @@
+.cards{
+    width: 100%;
+    /*You can use padding as a shortcut for all directions - think like a clock : top -> right -> bottom -> left */
+    padding: 8vh 0;
+
+    background: var(--mid-color);
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    font-family: var(--base-font);
+
+}
+
+.cards h3{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: var(--accent-font);
+    color: var(--dark-color);
+    padding-bottom: 0;
+}
+
+.cards span{
+    color: var(--brand-color);
+}
+
+.cards p{
+    font-size: small;
+    padding: 1px 2px;
+}
+
+.cards section{
+    flex: 0 1 350px;
+    align-self: stretch;
+
+    background: var(--light-color);
+
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(50, 50, 50, 0.3);
+
+    padding: .5rem;
+}
+
+.priser{
+    width: 100%;
+    /*You can use padding as a shortcut for all directions - think like a clock : top -> right -> bottom -> left */
+    padding: 8vh 0;
+
+    background: var(--mid-color);
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.priser section{
+    flex: 0 1 350px;
+    align-self: stretch;
+
+    background: var(--light-color);
+
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(50, 50, 50, 0.3);
+
+    padding: .5rem;
+}
+
+.priser h2{
+    padding-top: 25px;
+    margin: 0 30px;
+    font-size: xx-large;
+    font-family: var(--accent-font);
+    font-weight: bold;
+    color: var(--dark-color);
+
+    display: flex;
+    justify-content: end;
+}
+
+.priser h4{
+    font-size: medium;
+    font-weight: lighter;
+    font-family: var(--accent-font);
+    color: var(--dark-color);
+    padding: 5px 0;
+    padding-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.priser ul{
+    padding: 5px 0;
+}
+
+.priser p{
+    font-size: small;
+    padding: 0;
+    padding-bottom: 25px;
+}
+
+.priser h3{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: var(--accent-font);
+    color: var(--brand-color);
+    padding: 0;
+    padding-top: 25px;
+}
