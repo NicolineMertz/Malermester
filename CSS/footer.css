@@ -1,0 +1,36 @@
+footer{
+    margin: 0;
+    padding: 2em 0;
+    background-color: var(--mid-color);
+}
+
+footer img{
+    padding-left: 2em;
+    height: 100px;
+}
+
+footer .info{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h4{
+    padding: .5em 0;
+    font-family: var(--accent-font);
+    font-size: large;
+}
+
+footer li{
+    list-style: none;
+    font-family: var(--base-font);
+}
+
+footer .fa-brands{
+    color: var(--dark-color);
+    font-size: large;
+}
+
+footer div{
+    padding: 1em .5em;
+}
