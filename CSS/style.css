@@ -1,0 +1,24 @@
+:root {
+    --brand-color: #ffc929;
+    --dark-color: #155e75;
+    --mid-color: #e5e7eb;
+    --light-color: #f8fafc;
+    
+    --base-font: 'Synonym', sans-serif;
+    --accent-font: 'Amulya', sans-serif;
+    
+      }
+    
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+      }
+    
+      body{
+        font-family: var(--base-font);
+        color: var(--dark-color);
+        background: var(--light-color);
+    
+      }
