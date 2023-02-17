@@ -1,0 +1,37 @@
+.kontakt{
+    margin: 7em 0 0 0;
+    padding: 2em;
+    background-color: var(--dark-color);
+}
+
+.kontakt h3{
+    font-size: large;
+    font-family: var(--accent-font);
+    font-weight: bold;
+}
+
+.kontakt a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+    
+}
+
+.kontakt button{
+    background-color: var(--brand-color);
+    padding: 5px 15px;
+    border-style: none;
+    border-radius: 5px;
+
+    color: var(--light-color);
+    font-size: large;
+    font-weight: bold;
+    font-family: var(--accent-font);
+}
+
+.kontakt button:hover{
+    background-color: var(--dark-color);
+    cursor: pointer;
+}
